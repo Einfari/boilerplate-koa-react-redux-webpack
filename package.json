@@ -1,0 +1,45 @@
+{
+  "name": "boilerplate-koa-react-redux-webpack",
+  "version": "1.0.0",
+  "description": "A boilerplate for a Koa Redux React application with Webpack, Mocha and SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webserver": "node api/src/server.js",
+    "build": "node_modules/.bin/webpack",
+    "dev": "node_modules/.bin/webpack-dev-server -d --progress --colors --port 8090"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saturnast/boilerplate-koa-react-redux-webpack.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "koa",
+    "redux",
+    "react",
+    "webpack",
+    "mocha",
+    "sass"
+  ],
+  "author": "Saturn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saturnast/boilerplate-koa-react-redux-webpack/issues"
+  },
+  "homepage": "https://github.com/saturnast/boilerplate-koa-react-redux-webpack#readme",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "bookshelf": "^0.10.2",
+    "html-webpack-plugin": "^2.24.0",
+    "knex": "^0.12.6",
+    "koa": "^1.2.4",
+    "koa-route": "^2.4.2",
+    "mysql": "^2.11.1",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^1.16.2"
+  }
+}
